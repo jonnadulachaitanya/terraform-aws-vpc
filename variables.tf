@@ -62,3 +62,23 @@ variable "database_subnet_cidrs" {
 variable "database_subnet_tags" {
     default = {}
 }
+
+variable "aws_db_subnet_group_tags" {
+    default = {}
+}
+
+variable "aws_nat_gateway_tags" {
+    default = {}
+}
+
+variable "public_route_table_tags" {
+    default = {}
+}
+
+variable "private_route_table_tags" {
+    default = {}
+}
+
+variable "database_route_table_tags" {
+    default = {}
+}
